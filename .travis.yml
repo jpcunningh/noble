@@ -1,5 +1,6 @@
 os:
   - linux
+  - osx
 language: cpp
 env:
   - NODE_VERSION="8"
