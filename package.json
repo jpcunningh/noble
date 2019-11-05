@@ -33,20 +33,20 @@
     "win32"
   ],
   "dependencies": {
-    "debug": "~2.2.0"
+    "@abandonware/bluetooth-hci-socket": "^0.5.3-3",
+    "debug": "~4.1.1"
   },
   "optionalDependencies": {
-    "bluetooth-hci-socket": "^0.5.1",
     "bplist-parser": "0.0.6",
     "xpc-connection": "~0.1.4"
   },
   "devDependencies": {
     "jshint": "latest",
-    "mocha": "~1.8.2",
-    "should": "~1.2.2",
+    "mocha": "~6.2.2",
+    "should": "~13.2.3",
     "sinon": "~1.6.0",
-    "async": "~0.2.9",
-    "ws": "~0.4.31"
+    "async": "~3.1.0",
+    "ws": "~7.2.0"
   },
   "scripts": {
     "pretest": "jshint *.js lib/. test/.",
